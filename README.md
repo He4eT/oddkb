@@ -7,28 +7,28 @@ My personal [Dactyl-ManuForm](https://github.com/abstracthat/dactyl-manuform). T
 
 <details>
   <summary>Layer 0 [qwerty]</summary>
-  
+
   ![qwerty layer](/images/layers/layer-0-qwerty.png?raw=true)
-  
+
 </details>
 
 <details>
   <summary>Layer 1 [navigation]</summary>
-  
+
   ![qwerty layer](/images/layers/layer-1-nav.png?raw=true)
-  
+
 </details>
 
 <details>
-  <summary>Layer 3 [mouse]</summary>
-  
+  <summary>Layer 2 [mouse]</summary>
+
   ![qwerty layer](/images/layers/layer-2-mouse.png?raw=true)
-  
+
 </details>
 
 ## Firmware
 
-I used the [Docker](https://docs.qmk.fm/#/getting_started_docker) version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox).  
+I used the [Docker](https://docs.qmk.fm/#/getting_started_docker) version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
 You have to flash each of the halves of the keyboard.
 
 ```
