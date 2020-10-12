@@ -28,7 +28,7 @@ My personal [Dactyl-ManuForm](https://github.com/abstracthat/dactyl-manuform). T
 
 ## Firmware
 
-I used the [Docker](https://docs.qmk.fm/#/getting_started_docker) version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
+I used the [Docker](https://docs.qmk.fm/#/getting_started_docker) version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox).  
 You have to flash each of the halves of the keyboard.
 
 ```
