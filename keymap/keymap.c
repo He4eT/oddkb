@@ -11,14 +11,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                             KC_UNDS, KC_PLUS,                              KC_MINS, KC_EQL,
                                          KC_ESC,  KC_SPC,      KC_ENT,  KC_BSPC,
                                         KC_LALT,   MO(1),      MO(1),   KC_RALT,
-                                 LCTL_T(KC_ESC), KC_LGUI,      KC_LGUI, RCTL_T(KC_ESC)),
+                                 LCTL_T(KC_ESC), KC_LGUI,      KC_RGUI, RCTL_T(KC_ESC)),
 
   [1] = LAYOUT_5x6(
     KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,        KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10, KC_F11,
     KC_VOLU, KC_PMNS, KC_UNDS, KC_UP,   KC_PSLS, KC_PAST,      KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS, KC_F12,
     KC_VOLD, KC_PLUS, KC_LEFT, KC_DOWN, KC_RGHT, KC_PEQL,      KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_DEL, KC_PAUS,
-    KC_MUTE, KC_LT,   KC_QUOT, KC_LCBR, KC_LBRC, KC_LPRN,      KC_RPRN, KC_RBRC, KC_RCBR, KC_QUOT, KC_GT,  KC_PSCR,
-                      KC_BRIU, KC_BRID,                                          KC_APP,  MO(2),
+    KC_TRNS, KC_LT,   KC_QUOT, KC_LCBR, KC_LBRC, KC_LPRN,      KC_RPRN, KC_RBRC, KC_RCBR, KC_QUOT, KC_GT,  KC_TRNS,
+                      KC_MUTE, KC_PSCR,                                          KC_APP,  MO(2),
                                         KC_TRNS, KC_TRNS,      KC_TRNS, KC_DEL,
                                         KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS,
                                         KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS),
