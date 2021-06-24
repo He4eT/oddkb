@@ -26,19 +26,17 @@ My personal [Dactyl-ManuForm](https://github.com/abstracthat/dactyl-manuform). T
 
 </details>
 
-## Firmware
+## Flashing
 
-I used the [Docker](https://docs.qmk.fm/#/getting_started_docker) version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox).  
+I used the [Docker](https://docs.qmk.fm/#/getting_started_docker) version of [QMK](https://github.com/qmk/qmk_firmware).
 You have to flash each of the halves of the keyboard.
 
 ```
-mkdir ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x6/keymaps/oddkb/
-cp ./keymap/* ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x6/keymaps/oddkb/
-
-cd ~/qmk_firmware/
-
-sudo ./util/docker_build.sh handwired/dactyl_manuform/5x6:oddkb:avrdude
+git clone --recurse-submodules git@github.com:He4eT/oddkb.git
+cd oddkb
+make flash
 ```
+
 ## Build
 - [Guide for building](https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065)
 - [Another guide for building](https://nickgreen.info/dactyl-manuform-build-log/)
