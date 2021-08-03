@@ -21,3 +21,15 @@ flash:
 	@make keymap_copy
 	@make qmk_flash
 	@make keymap_clean
+
+preview_cmd = node \
+	./preview_generator/preview_generator.js \
+	"${PWD}/keymap/keymap.c"
+
+preview:
+	@${preview_cmd}
+
+preview_and_copy:
+	@${preview_cmd} | xclip -sel clipboard
+	@echo 'Copied to the clipboard! Paste it in the "Raw data" tab:'
+	@echo 'http://www.keyboard-layout-editor.com/'
