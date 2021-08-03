@@ -57,6 +57,8 @@ const legends = {
   'RGUI': 'OS',
   'LCTL_T(ESC': 'Ctrl\nEsc',
   'RCTL_T(ESC': 'Ctrl\nEsc',
+  'OSM(MOD_LCTL': 'OSM\nCtrl',
+  'OSM(MOD_LALT': 'OSM\nAlt',
 
   'HOME': 'Home',
   'INS': 'Insert',
