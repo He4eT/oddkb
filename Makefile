@@ -1,3 +1,6 @@
+# Flashing the keyboard:
+# make flash
+
 qmk_dir = qmk_firmware
 
 keyboard = handwired/dactyl_manuform/5x6
@@ -22,14 +25,20 @@ flash:
 	@make qmk_flash
 	@make keymap_clean
 
+# Creating layer previews:
+# make preview[_copy] [layer=number]
+
+layer = -1
 preview_cmd = node \
 	./preview_generator/preview_generator.js \
-	"${PWD}/keymap/keymap.c"
+	"${PWD}/keymap/keymap.c" \
+	"$(layer)"
 
 preview:
 	@${preview_cmd}
 
-preview_and_copy:
+preview_copy:
 	@${preview_cmd} | xclip -sel clipboard
-	@echo 'Copied to the clipboard! Paste it in the "Raw data" tab:'
+	@echo 'The layout has been copied to the clipboard!'
+	@echo 'Paste it into the "Raw Data" tab here:'
 	@echo 'http://www.keyboard-layout-editor.com/'
