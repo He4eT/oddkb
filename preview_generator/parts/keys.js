@@ -46,6 +46,7 @@ const legends = {
   'SPC': 'Space',
   'BSPC': 'Back\nSpace',
   'TAB': 'Tab',
+  'CAPS': 'Caps\nLock',
 
   'LCTRL': 'Ctrl',
   'RCTRL': 'Ctrl',
@@ -59,6 +60,8 @@ const legends = {
   'RCTL_T(ESC': 'Ctrl\nEsc',
   'OSM(MOD_LCTL': 'OSM\nCtrl',
   'OSM(MOD_LALT': 'OSM\nAlt',
+  'OSM(MOD_LGUI': 'OSM\nOS',
+  'OSM(MOD_RGUI': 'OSM\nOS',
 
   'HOME': 'Home',
   'INS': 'Insert',
@@ -68,6 +71,7 @@ const legends = {
   'PGUP': 'PgUp',
   'PAUS': 'Pause',
   'PSCR': 'PrScr',
+  'SYSREQ': 'SysRq',
   'APP': 'Menu',
 
   'LEFT': 'Left',
@@ -76,8 +80,8 @@ const legends = {
   'UP': 'Up',
 
   'MUTE': 'Mute',
-  'VOLD': 'Vol +',
-  'VOLU': 'Vol −',
+  'VOLD': 'Vol −',
+  'VOLU': 'Vol +',
 
   'ACL0': 'Slow',
   'ACL1': 'Usual',
