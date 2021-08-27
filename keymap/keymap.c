@@ -16,12 +16,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [1] = LAYOUT_5x6(
     KC_MUTE, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,      KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10, KC_F11,
     KC_VOLU, KC_NO,   KC_NO,   KC_UP,   KC_NO,   KC_NO,      KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS, KC_F12,
-    KC_VOLD, KC_NO, KC_LEFT, KC_DOWN, KC_RGHT,   KC_NO,      KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_DEL, KC_PAUS,
-    KC_TRNS, KC_NO,   KC_LT, KC_LCBR, KC_LBRC, KC_LPRN,      KC_RPRN, KC_RBRC, KC_RCBR, KC_GT,   KC_NO,  KC_TRNS,
-                              KC_APP, KC_PSCR,                        KC_NO, KC_NO,
+    KC_VOLD, KC_NO, KC_LEFT, KC_DOWN, KC_RGHT, KC_CAPS,      KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_DEL, KC_PAUS,
+    KC_LSFT, KC_NO,   KC_LT, KC_LCBR, KC_LBRC, KC_LPRN,      KC_RPRN, KC_RBRC, KC_RCBR, KC_GT,   KC_NO,  KC_RSFT,
+                              KC_F13, KC_PSCR,                        KC_APP,  KC_SYSREQ,
                           OSM(MOD_LALT), OSM(MOD_LCTL),      MO(2), KC_DEL,
                                       KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS,
-                                       KC_TRNS, KC_F17,      KC_F18, KC_TRNS),
+                                KC_TRNS, OSM(MOD_LGUI),      OSM(MOD_RGUI), KC_TRNS),
 
   [2] = LAYOUT_5x6(
       KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO,
