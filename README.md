@@ -43,5 +43,5 @@ make flash
 - [Wiring scheme](https://github.com/abstracthat/dactyl-manuform#alternative-row-driven-wiring-diagram-for-promicro)
 
 ## Links
-- [Mech Guide [RU]](https://rumech.guide/)
+- [Mech Guide [RU]](https://docs.killswit.ch/)
 - [Keyboards and design: Tonsky [RU]](https://tonsky.livejournal.com/321097.html)
