@@ -48,8 +48,8 @@ const legends = {
   'TAB': 'Tab',
   'CAPS': 'Caps\nLock',
 
-  'LCTRL': 'Ctrl',
-  'RCTRL': 'Ctrl',
+  'LCTL': 'Ctrl',
+  'RCTL': 'Ctrl',
   'LALT': 'Alt',
   'RALT': 'Alt',
   'LSFT': 'Shift',
@@ -71,7 +71,7 @@ const legends = {
   'PGUP': 'PgUp',
   'PAUS': 'Pause',
   'PSCR': 'PrScr',
-  'SYSREQ': 'SysRq',
+  'SYRQ': 'SysRq',
   'APP': 'Menu',
 
   'LEFT': 'Left',
