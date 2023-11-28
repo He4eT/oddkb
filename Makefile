@@ -1,7 +1,7 @@
 # Flashing the keyboard:
 # make flash
 
-qmk_dir = qmk_firmware
+qmk_dir = vial-qmk
 
 keyboard = handwired/dactyl_manuform/5x6
 keymap = oddkb
