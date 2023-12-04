@@ -3,7 +3,33 @@ My personal [Dactyl-ManuForm](https://github.com/abstracthat/dactyl-manuform). T
 
 ![overview](/images/photos/overview.jpg?raw=true)
 
-## Layout
+## Current Layout
+
+Current layout can be found in `layout/current.vil`.
+You can edit and apply it with [Vial](https://get.vial.today/).
+
+<details>
+  <summary>Layer 0 [qwerty]</summary>
+
+  ![qwerty layer](/images/layers/current/layer-0-qwerty.png?raw=true)
+
+</details>
+
+<details>
+  <summary>Layer 1 [navigation]</summary>
+
+  ![qwerty layer](/images/layers/current/layer-1-nav.png?raw=true)
+
+</details>
+
+<details>
+  <summary>Layer 2 [mouse]</summary>
+
+  ![qwerty layer](/images/layers/current/layer-2-mouse.png?raw=true)
+
+</details>
+
+## Initial Layout
 
 <details>
   <summary>Layer 0 [qwerty]</summary>
