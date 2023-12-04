@@ -21,6 +21,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_USB_DETECT
 #define SPLIT_USB_TIMEOUT 2500
 
+#define PERMISSIVE_HOLD
+#define TAPPING_TERM 300
+#define QUICK_TAP_TERM 100
+
 #define VIAL_KEYBOARD_UID {0x8A, 0x86, 0x65, 0x9D, 0x13, 0xE1, 0xCB, 0x81}
 
 /* Vial unlock */
