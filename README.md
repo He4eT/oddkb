@@ -5,7 +5,7 @@ My personal [Dactyl-ManuForm](https://github.com/abstracthat/dactyl-manuform). T
 
 ## Current Layout
 
-Current layout can be found in `layout/current.vil`.
+Current layout can be found in `layouts/current.vil`.
 
 You can edit and apply it with [Vial](https://get.vial.today/).
 
