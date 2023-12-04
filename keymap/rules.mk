@@ -5,9 +5,9 @@ LTO_ENABLE = yes 	   # LTO makes the compiler work harder when optimizing your c
 
 EXTRAKEY_ENABLE = yes      # Audio control and System control
 MOUSEKEY_ENABLE = yes      # Mouse keys
-QMK_SETTINGS = no          # Vial QMK-settings tab
+QMK_SETTINGS = yes         # Vial QMK-settings tab
 
-COMBO_ENABLE = no
+COMBO_ENABLE = yes
 DYNAMIC_MACRO_ENABLE = no
 KEY_OVERRIDE_ENABLE = no
 TAP_DANCE_ENABLE = no

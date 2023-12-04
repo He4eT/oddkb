@@ -33,8 +33,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Vial features */
 
-#define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #define DYNAMIC_MACRO_SIZE 0
-#define VIAL_KEY_OVERRIDE_ENTRIES 0
-#define VIAL_TAP_DANCE_ENTRIES 0
-#define VIAL_COMBO_ENTRIES 0
+#define VIAL_KEY_OVERRIDE_ENTRIES 8
+#define VIAL_TAP_DANCE_ENTRIES 8
+#define VIAL_COMBO_ENTRIES 8
