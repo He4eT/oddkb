@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# GIMP commands for the screenshot preparation:
+# - Layer > Crop to Content [Alt + L, O, O, Enter]
+# - Image > Fit Canvas to Layers [Alt + I, A]
+
 filename="$1"
 bordercolor="#424242"
 bordersize=16
