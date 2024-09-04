@@ -19,14 +19,14 @@ You can edit and apply it with [Vial](https://get.vial.today/).
 <details>
   <summary>Layer 1 [navigation]</summary>
 
-  ![qwerty layer](/images/layers/current/layer-1-nav.png?raw=true)
+  ![navigation layer](/images/layers/current/layer-1-nav.png?raw=true)
 
 </details>
 
 <details>
   <summary>Layer 2 [mouse]</summary>
 
-  ![qwerty layer](/images/layers/current/layer-2-mouse.png?raw=true)
+  ![mouse layer](/images/layers/current/layer-2-mouse.png?raw=true)
 
 </details>
 
@@ -42,14 +42,14 @@ You can edit and apply it with [Vial](https://get.vial.today/).
 <details>
   <summary>Layer 1 [navigation]</summary>
 
-  ![qwerty layer](/images/layers/initial/layer-1-nav.png?raw=true)
+  ![navigation layer](/images/layers/initial/layer-1-nav.png?raw=true)
 
 </details>
 
 <details>
   <summary>Layer 2 [mouse]</summary>
 
-  ![qwerty layer](/images/layers/initial/layer-2-mouse.png?raw=true)
+  ![mouse layer](/images/layers/initial/layer-2-mouse.png?raw=true)
 
 </details>
 
