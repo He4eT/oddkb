@@ -13,7 +13,7 @@ if [ ! -f "$filename" ]; then
   exit 1
 fi
 
-convert \
+magick \
   "$filename" \
   -bordercolor "$bordercolor" \
   -border "${bordersize}x${bordersize}" \
